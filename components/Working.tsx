@@ -6,7 +6,7 @@ export default function Working() {
       <div className="text-center space-y-2">
         <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">How It Works</h2>
         <p className="text-muted-foreground md:text-xl max-w-3xl mx-auto">
-          Selling your unused software licenses has never been easier—just follow these 3 simple steps.
+          Selling your unused software licenses has never been easier, just follow these 3 simple steps.
         </p>
       </div>
 
@@ -28,7 +28,7 @@ export default function Working() {
           </CardHeader>
           <CardContent>
             <p className="text-muted-foreground">
-              Your listing is promoted to our network of verified buyers. Get notified the moment there's interest.
+              Your listing is promoted to our network of verified buyers. Get notified the moment there is interest.
             </p>
           </CardContent>
         </Card>

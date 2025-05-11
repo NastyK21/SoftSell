@@ -80,13 +80,13 @@ export function AnimatedSlideIn({
         </motion.div>
     )
 }
-
-export function AnimatedCard({ children, className, delay = 0.1 }: AnimatedSectionProps) {
+export function AnimatedCard({ children, className }: Omit<AnimatedSectionProps, "delay">) {
     return (
         <motion.div
             whileHover={{
                 y: -5,
-                boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1)",
+                boxShadow:
+                    "0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1)",
             }}
             transition={{ duration: 0.2 }}
             className={className}
@@ -96,7 +96,7 @@ export function AnimatedCard({ children, className, delay = 0.1 }: AnimatedSecti
     )
 }
 
-export function AnimatedButton({ children, className }: AnimatedSectionProps) {
+export function AnimatedButton({ children, className }: Omit<AnimatedSectionProps, "delay">) {
     return (
         <motion.div
             whileHover={{ scale: 1.05 }}
