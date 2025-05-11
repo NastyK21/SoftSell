@@ -17,7 +17,7 @@ export default function Working() {
           </CardHeader>
           <CardContent>
             <p className="text-muted-foreground">
-              Sign up and upload the details of your unused software license. We’ll verify it in minutes.
+              Sign up and upload the details of your unused software license. We will verify it in minutes.
             </p>
           </CardContent>
         </Card>

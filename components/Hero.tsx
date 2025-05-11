@@ -3,6 +3,8 @@
 import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
 import { AnimatedButton } from "@/components/ui/animated-section"
+import Image from "next/image"
+
 
 export default function Hero() {
   return (
@@ -65,11 +67,15 @@ export default function Hero() {
             <div className="relative aspect-video overflow-hidden rounded-xl border bg-background p-2 md:p-4 lg:p-6">
               {/* Placeholder Image */}
               <div className="h-full w-full bg-muted/50 rounded-lg flex items-center justify-center text-muted-foreground text-sm">
-                <img
+                <Image
                   src="/product.png"
                   alt="Product Dashboard Screenshot"
+                  width={800} // Adjust based on actual design
+                  height={450} // Adjust based on actual design
                   className="h-full w-full object-cover rounded-lg"
                 />
+
+
               </div>
             </div>
           </motion.div>

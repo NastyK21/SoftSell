@@ -41,7 +41,7 @@ export default function ChatBot() {
               </div>
               <div className="bg-muted p-3 rounded-lg rounded-tl-none max-w-[80%] self-start">
                 <p className="text-sm">
-                  Of course! I'd be happy to help. What would you like to know about our services?
+                  Of course! I would be happy to help. What would you like to know about our services?
                 </p>
               </div>
             </div>
