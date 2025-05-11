@@ -71,10 +71,3 @@ OPENAI_API_KEY=your-api-key-here
 
 ---
 
-## License
-
-Open-source under the [MIT License](LICENSE).
-
----
-
-Let me know if you'd like any further changes!
